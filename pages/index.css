@@ -29,3 +29,7 @@
   src: url(https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Istok+Web:wght@400;700&family=Noto+Serif:ital@0;1&family=Ubuntu:wght@400;700&display=swap);
   font-family: "Noto Serif", "Times New Roman", serif;
 }
+
+.span-accent {
+  display: block;
+}
