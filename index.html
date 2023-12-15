@@ -82,26 +82,34 @@
             elabores tu propio café.
           </p>
           <div class="recipes__videos">
-            <iframe
-              class="recipes__iframe"
-              src="https://www.youtube.com/embed/j6VlT_jUVPc"
-              id="ytplayer"
-              width="480"
-              height="273"
-            >
-            </iframe>
-            <p class="recipes__video-caption">Receta en Aeropress><span class="recipes__video-duration">~5 min</span></p>
-          </div>
-            <p class="recipes__video-duration">~5 min</p>
-            <iframe
-              class="recipes__iframe"
-              src="https://www.youtube.com/embed/st571DYYTR8"
-              width="480"
-              height="273"
-            ></iframe>
-            <p class="recipes__video-caption">Receta en cafetera francesa<span class="recipes__video-duration">~15 min</span></p>
-          </div>
-            <p class="recipes__video-duration">~15 min</p>
+            <div>
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/j6VlT_jUVPc"
+                id="ytplayer"
+                width="480"
+                height="273"
+              >
+              </iframe>
+              <p class="recipes__video-caption">
+                Receta en Aeropress<span class="recipes__video-duration"
+                  >~5 min</span
+                >
+              </p>
+            </div>
+            <div>
+              <iframe
+                class="recipes__iframe"
+                src="https://www.youtube.com/embed/st571DYYTR8"
+                width="480"
+                height="273"
+              ></iframe>
+              <p class="recipes__video-caption">
+                Receta en cafetera francesa<span class="recipes__video-duration"
+                  >~15 min</span
+                >
+              </p>
+            </div>
           </div>
         </section>
         <section class="reservation" id="reservation-link">
@@ -280,7 +288,54 @@
           </div>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <footer class="footer" id="contacto">
+          <div class="footer__columns">
+            <div class="footer__column">
+              <img
+                class="footer__logo"
+                src="images/logo_coffeeshop_light.svg"
+                alt="Logo TripleTen"
+              />
+            </div>
+            <div class="footer__column"></div>
+            <div class="footer__column footer__column_content_social">
+              <h2 class="footer__column-heading">Redes Sociales</h2>
+              <ul class="footer__list">
+                <li class="footer__list-item">
+                  <a
+                    class="footer__column-link"
+                    href="#facebook_icon"
+                    id="link-facebook_icon"
+                  >
+                    <img
+                      class="footer__social-icon"
+                      src="./images/facebook_white.svg"
+                      alt="facebook_icon"
+                    />
+                    Facebook
+                  </a>
+                </li>
+                <li class="footer__list-item">
+                  <a
+                    class="footer__column-link"
+                    href="#instagram_icon"
+                    id="link-instagram_icon"
+                  >
+                    <img
+                      class="footer__social-icon"
+                      src="./images/instagram_white.svg"
+                      alt="instagram_icon"
+                    />
+                    Instagram
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <p class="footer__copyright">©2023 Sol Gago</p>
+        </footer>
+      </footer>
     </div>
   </body>
 </html>
