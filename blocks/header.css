@@ -66,6 +66,7 @@
 .header__hours {
   color: #6f6f6f;
   list-style: none;
+  padding: 0px;
 }
 
 .header__address {
